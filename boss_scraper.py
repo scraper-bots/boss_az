@@ -226,7 +226,7 @@ class BossAzScraper:
 def main():
     # Configuration
     START_URL = "https://boss.az/resumes?action=index&controller=resumes&only_path=true&page=1&type=resumes"
-    MAX_PAGES = 5  # Set to None to scrape all pages
+    MAX_PAGES = None  # Set to None to scrape all pages
     OUTPUT_FILE = "boss_az_resumes.csv"
     DELAY = 2  # Delay between requests in seconds
     
